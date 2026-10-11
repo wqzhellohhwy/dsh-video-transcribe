@@ -1,0 +1,5 @@
+# dsh-video-transcribe — bundle patch:插入唯一一行 Host 插件。
+# 与该包 package.json 的 dsh.bundle.patch 对应;profile 侧按需覆盖 config。
+- insert:
+    - id: video-transcribe
+      name: 'dsh-video-transcribe'
